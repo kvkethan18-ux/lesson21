@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Jvascript String Method</h2>
+    <p>Basic Method</p>
+    <script>
+        var str = "AmAzIng";
+        document.write(str.toUpperCase());
+        document.write("<br>");
+        document.write(str.toLowerCase());
+        document.write("<br>");
+        document.write(str.startsWith('i'));
+        document.write("<br>");
+
+        // Test Method -> returns True or False
+        var str1 = "I Learnt About Methods";
+        var patt = new RegExp("about");
+        var res = patt.test(str);
+        document.write(res);
+    </script>
+</body>
+</html>
